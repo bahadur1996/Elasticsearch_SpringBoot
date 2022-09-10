@@ -20,4 +20,7 @@ public class ProductService {
     public void createProductIndex(final Product product) {
         productRepository.save(product);
     }
+    public List<Product> searchByName(final String name){
+       return productRepository.findByName(name);
+    }
 }
