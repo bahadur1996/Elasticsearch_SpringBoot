@@ -50,6 +50,10 @@
             <artifactId>flink-connector-elasticsearch7_2.11</artifactId>
             <version>1.10.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
